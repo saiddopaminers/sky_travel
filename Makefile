@@ -70,10 +70,10 @@ am__make_running_with_option = \
   test $$has_opt = yes
 am__make_dryrun = (target_option=n; $(am__make_running_with_option))
 am__make_keepgoing = (target_option=k; $(am__make_running_with_option))
-pkgdatadir = $(datadir)/success
-pkgincludedir = $(includedir)/success
-pkglibdir = $(libdir)/success
-pkglibexecdir = $(libexecdir)/success
+pkgdatadir = $(datadir)/project16
+pkgincludedir = $(includedir)/project16
+pkglibdir = $(libdir)/project16
+pkglibexecdir = $(libexecdir)/project16
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
@@ -86,7 +86,7 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = success$(EXEEXT)
+bin_PROGRAMS = project16$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.in
@@ -99,11 +99,11 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_success_OBJECTS = main.$(OBJEXT) support.$(OBJEXT) \
-	interface.$(OBJEXT) callbacks.$(OBJEXT) rec.$(OBJEXT)
-success_OBJECTS = $(am_success_OBJECTS)
+am_project16_OBJECTS = main.$(OBJEXT) support.$(OBJEXT) \
+	interface.$(OBJEXT) callbacks.$(OBJEXT) facturation.$(OBJEXT)
+project16_OBJECTS = $(am_project16_OBJECTS)
 am__DEPENDENCIES_1 =
-success_DEPENDENCIES = $(am__DEPENDENCIES_1)
+project16_DEPENDENCIES = $(am__DEPENDENCIES_1)
 AM_V_P = $(am__v_P_$(V))
 am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))
 am__v_P_0 = false
@@ -132,8 +132,8 @@ AM_V_CCLD = $(am__v_CCLD_$(V))
 am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CCLD_0 = @echo "  CCLD    " $@;
 am__v_CCLD_1 = 
-SOURCES = $(success_SOURCES)
-DIST_SOURCES = $(success_SOURCES)
+SOURCES = $(project16_SOURCES)
+DIST_SOURCES = $(project16_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -160,12 +160,12 @@ ETAGS = etags
 CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/med/Desktop/success/missing aclocal-1.15
+ACLOCAL = ${SHELL} /home/siwar/Projects/project16/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} /home/med/Desktop/success/missing autoconf
-AUTOHEADER = ${SHELL} /home/med/Desktop/success/missing autoheader
-AUTOMAKE = ${SHELL} /home/med/Desktop/success/missing automake-1.15
+AUTOCONF = ${SHELL} /home/siwar/Projects/project16/missing autoconf
+AUTOHEADER = ${SHELL} /home/siwar/Projects/project16/missing autoheader
+AUTOMAKE = ${SHELL} /home/siwar/Projects/project16/missing automake-1.15
 AWK = mawk
 CATALOGS = 
 CATOBJEXT = .gmo
@@ -183,7 +183,7 @@ ECHO_N = -n
 ECHO_T = 
 EGREP = /bin/grep -E
 EXEEXT = 
-GETTEXT_PACKAGE = success
+GETTEXT_PACKAGE = project16
 GMOFILES = 
 GMSGFMT = /usr/bin/msgfmt
 GREP = /bin/grep
@@ -200,13 +200,13 @@ LIBOBJS =
 LIBS = 
 LTLIBOBJS = 
 MAINT = 
-MAKEINFO = ${SHELL} /home/med/Desktop/success/missing makeinfo
+MAKEINFO = ${SHELL} /home/siwar/Projects/project16/missing makeinfo
 MKDIR_P = /bin/mkdir -p
 MKINSTALLDIRS = ./mkinstalldirs
 MSGFMT = /usr/bin/msgfmt
 MSGFMT_OPTS = -c
 OBJEXT = o
-PACKAGE = success
+PACKAGE = project16
 PACKAGE_BUGREPORT = 
 PACKAGE_CFLAGS = -pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16
 PACKAGE_LIBS = -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
@@ -229,10 +229,10 @@ STRIP =
 USE_NLS = yes
 VERSION = 0.1
 XGETTEXT = /usr/bin/xgettext
-abs_builddir = /home/med/Desktop/success/src
-abs_srcdir = /home/med/Desktop/success/src
-abs_top_builddir = /home/med/Desktop/success
-abs_top_srcdir = /home/med/Desktop/success
+abs_builddir = /home/siwar/Projects/project16/src
+abs_srcdir = /home/siwar/Projects/project16/src
+abs_top_builddir = /home/siwar/Projects/project16
+abs_top_srcdir = /home/siwar/Projects/project16
 ac_ct_CC = gcc
 am__include = include
 am__leading_dot = .
@@ -251,7 +251,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/med/Desktop/success/install-sh
+install_sh = ${SHELL} /home/siwar/Projects/project16/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -277,14 +277,14 @@ INCLUDES = \
 	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
 	-pthread -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16
 
-success_SOURCES = \
+project16_SOURCES = \
 	main.c \
 	support.c support.h \
 	interface.c interface.h \
 	callbacks.c callbacks.h \
-        rec.c rec.h
+	facturation.c facturation.h
 
-success_LDADD = -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype $(INTLLIBS)
+project16_LDADD = -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype $(INTLLIBS)
 all: all-am
 
 .SUFFIXES:
@@ -361,9 +361,9 @@ uninstall-binPROGRAMS:
 clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
 
-success$(EXEEXT): $(success_OBJECTS) $(success_DEPENDENCIES) $(EXTRA_success_DEPENDENCIES) 
-	@rm -f success$(EXEEXT)
-	$(AM_V_CCLD)$(LINK) $(success_OBJECTS) $(success_LDADD) $(LIBS)
+project16$(EXEEXT): $(project16_OBJECTS) $(project16_DEPENDENCIES) $(EXTRA_project16_DEPENDENCIES) 
+	@rm -f project16$(EXEEXT)
+	$(AM_V_CCLD)$(LINK) $(project16_OBJECTS) $(project16_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -372,9 +372,9 @@ distclean-compile:
 	-rm -f *.tab.c
 
 include ./$(DEPDIR)/callbacks.Po
+include ./$(DEPDIR)/facturation.Po
 include ./$(DEPDIR)/interface.Po
 include ./$(DEPDIR)/main.Po
-include ./$(DEPDIR)/rec.Po
 include ./$(DEPDIR)/support.Po
 
 .c.o:
